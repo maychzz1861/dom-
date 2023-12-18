@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+
+
+.head1 {
+  display: block;
+  margin: 10px;
+  border: 2px solid rgb(193, 193, 193);
+  padding: 10px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+  margin: 10px;
+  padding: 50px;
+  border: 2px dashed;
+  background-image: linear-gradient(to right, #FFB6C1, #87CEFA, #E0FFFF);
+  }
+
+
+.btn-inc, .btn-dec, .btn-clr, .btn-del {
+  font-size: 24px;
+  width: 70px;
+  height: 30px;
+  margin: 3px;
+}
+
+.number {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.input-number {
+  margin: 2px;
+  padding: 2px;
+}
